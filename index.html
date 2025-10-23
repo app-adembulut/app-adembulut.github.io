@@ -1,1 +1,216 @@
-test
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - Kelime Üretici, Bulucu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+        }
+        
+        .last-updated {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        .app-name {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .no-data {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gizlilik Politikası</h1>
+        
+        <div class="highlight">
+            <p><strong>Uygulama Adı:</strong> <span class="app-name">Kelime Üretici, Bulucu</span></p>
+            <p><strong>Geliştirici:</strong> Adem Bulut</p>
+            <p><strong>E-posta:</strong> app.adembulut@gmail.com</p>
+        </div>
+
+        <h2>1. Giriş</h2>
+        <p>Bu gizlilik politikası, <span class="app-name">Kelime Üretici, Bulucu</span> uygulamasının kullanıcılarının gizliliğini koruma konusundaki yaklaşımımızı açıklamaktadır. Uygulamamızı kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
+
+        <h2>2. Toplanan Veriler</h2>
+        <div class="no-data">
+            <h3>🎉 Önemli: Hiçbir Kişisel Veri Toplamıyoruz</h3>
+            <p><strong>Kelime Üretici, Bulucu</strong> uygulaması hiçbir kişisel veri toplamamaktadır. Uygulama tamamen yerel olarak çalışır ve kullanıcı verilerini herhangi bir sunucuya göndermez.</p>
+        </div>
+
+        <h3>2.1. Toplanmayan Veriler</h3>
+        <ul>
+            <li>Ad, soyad, e-posta adresi gibi kişisel bilgiler</li>
+            <li>Telefon numarası veya adres bilgileri</li>
+            <li>Konum verileri</li>
+            <li>Kullanıcı davranış analizi verileri</li>
+            <li>Uygulama kullanım istatistikleri</li>
+            <li>Hata raporları veya crash logları</li>
+            <li>IP adresi veya cihaz kimlik bilgileri</li>
+        </ul>
+
+        <h2>3. Firebase Authentication Kullanımı</h2>
+        <p>Uygulamamızda giriş yapma özelliği bulunmaktadır ve bu özellik <strong>Firebase Authentication</strong> servisi üzerinden sağlanmaktadır.</p>
+
+        <h3>3.1. Firebase Authentication Hakkında</h3>
+        <ul>
+            <li>Firebase Authentication, Google tarafından sağlanan güvenli bir kimlik doğrulama servisidir</li>
+            <li>Giriş işlemleri sırasında sadece gerekli kimlik doğrulama verileri Firebase sunucularına gönderilir</li>
+            <li>Kullanıcı adı ve şifre bilgileri Firebase tarafından güvenli bir şekilde saklanır</li>
+            <li>Uygulama içindeki kelime verileriniz veya diğer içerikleriniz Firebase'e gönderilmez</li>
+        </ul>
+
+        <h3>3.2. Firebase Veri Kullanımı</h3>
+        <p>Firebase Authentication kullanımı ile ilgili olarak:</p>
+        <ul>
+            <li>Giriş yapma işlemi için gerekli olan e-posta adresi ve şifre Firebase sunucularında saklanır</li>
+            <li>Bu veriler sadece kimlik doğrulama amacıyla kullanılır</li>
+            <li>Firebase'in kendi gizlilik politikası geçerlidir: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+            <li>Uygulama içindeki kelime listeleriniz, oyun verileriniz veya diğer içerikleriniz hiçbir şekilde Firebase'e gönderilmez</li>
+        </ul>
+
+        <h2>4. Veri Saklama</h2>
+        <p>Uygulamamız hiçbir kişisel veri toplamadığı için saklanacak bir veri bulunmamaktadır. Tüm uygulama verileri cihazınızda yerel olarak saklanır.</p>
+
+        <h2>5. Veri Paylaşımı</h2>
+        <p>Hiçbir kişisel veri toplamadığımız için üçüncü taraflarla veri paylaşımı söz konusu değildir. Firebase Authentication dışında herhangi bir üçüncü taraf servisi kullanılmamaktadır.</p>
+
+        <h2>6. Çocukların Gizliliği</h2>
+        <p>Uygulamamız 13 yaş altındaki çocuklardan bilerek kişisel bilgi toplamamaktadır. Eğer 13 yaş altında bir çocuğun kişisel bilgilerini topladığımızı fark edersek, bu bilgileri derhal sileriz.</p>
+
+        <h2>7. Güvenlik</h2>
+        <p>Uygulamamızın güvenliği konusunda:</p>
+        <ul>
+            <li>Hiçbir veri toplamadığımız için veri güvenliği riski bulunmamaktadır</li>
+            <li>Firebase Authentication güvenli bağlantılar (HTTPS) kullanır</li>
+            <li>Uygulama içi veriler cihazınızda yerel olarak saklanır</li>
+        </ul>
+
+        <h2>8. Kullanıcı Hakları</h2>
+        <p>KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında kullanıcıların sahip olduğu haklar:</p>
+        <ul>
+            <li>Kişisel verilerin işlenip işlenmediğini öğrenme hakkı</li>
+            <li>İşlenen kişisel veriler hakkında bilgi talep etme hakkı</li>
+            <li>Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme hakkı</li>
+            <li>Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme hakkı</li>
+            <li>Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme hakkı</li>
+            <li>Kişisel verilerin silinmesini veya yok edilmesini isteme hakkı</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>Not:</strong> Uygulamamız hiçbir kişisel veri toplamadığı için yukarıdaki hakların kullanılmasına gerek bulunmamaktadır.</p>
+        </div>
+
+        <h2>9. Çerezler (Cookies)</h2>
+        <p>Uygulamamız herhangi bir çerez kullanmamaktadır. Uygulama tamamen yerel olarak çalışır ve web tabanlı bir uygulama değildir.</p>
+
+        <h2>10. Üçüncü Taraf Servisleri</h2>
+        <p>Uygulamamızda sadece Firebase Authentication servisi kullanılmaktadır. Bu servis dışında herhangi bir üçüncü taraf servisi entegrasyonu bulunmamaktadır.</p>
+
+        <h2>11. Gizlilik Politikası Değişiklikleri</h2>
+        <p>Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda kullanıcıları uygulama içi bildirim veya e-posta yoluyla bilgilendiririz. Güncellenmiş politikayı bu sayfada yayınlayacağız.</p>
+
+        <h2>12. İletişim</h2>
+        <div class="contact-info">
+            <p>Gizlilik politikası ile ilgili sorularınız için bizimle iletişime geçebilirsiniz:</p>
+            <p><strong>Geliştirici:</strong> Adem Bulut</p>
+            <p><strong>E-posta:</strong> app.adembulut@gmail.com</p>
+            <p><strong>Uygulama:</strong> Kelime Üretici, Bulucu</p>
+        </div>
+
+        <h2>13. Yasal Uyumluluk</h2>
+        <p>Bu gizlilik politikası Türkiye Cumhuriyeti mevzuatına uygun olarak hazırlanmıştır. KVKK (Kişisel Verilerin Korunması Kanunu) ve ilgili düzenlemelere tam uyum sağlanmıştır.</p>
+
+        <div class="last-updated">
+            <p><strong>Son Güncelleme Tarihi:</strong> 2025</p>
+            <p>Bu gizlilik politikası 2025 yılında oluşturulmuş ve yürürlüğe girmiştir.</p>
+        </div>
+    </div>
+</body>
+</html>
